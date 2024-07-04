@@ -10,3 +10,11 @@ function acessar(){
         window.location.href = 'cadastro.html';
     }
 }
+
+// FUNÇÃO DE CRIAÇÃO DE ARRAY PARA ARMAZENAMENTO DE NOMES
+
+var dadosLista = [];
+
+function salvarUser(){
+    
+}
