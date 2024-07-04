@@ -16,5 +16,11 @@ function acessar(){
 var dadosLista = [];
 
 function salvarUser(){
-    
+    let nomeUser = document.getElementById('nomeUser').value;
+
+    if(nomeUser){
+
+    } else{
+        alert("Favor informar um nome");
+    }
 }
