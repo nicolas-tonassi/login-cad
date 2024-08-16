@@ -71,6 +71,16 @@ function excluir(i){
  
 Explicação: Esta função exclui um nome de usuário da lista quando o botão "Excluir" é clicado. A entrada selecionada é removida tanto do array quanto da tabela.
  
+
+- Validação de E-mail:
+function validarEmail(email) {
+    var re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    return re.test(String(email).toLowerCase());
+}
+ 
+Explicação: Esta função valida o formato do e-mail inserido pelo usuário. A validação é feita utilizando uma expressão regular que verifica se o e-mail está no formato correto (por exemplo, nome@dominio.com). Se o e-mail não estiver no formato correto, a função retorna false e o usuário é alertado para inserir um e-mail válido.
+
+<img src="imagem-email.jpeg">
  
 ## Tecnologias utilizadas
 - Visual Studio Code;
